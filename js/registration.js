@@ -45,6 +45,7 @@ $(document).ready(() => {
                 "lastName":lastName,
                 "email":email,
             },
+            dataType: "json",
             success: (x) => {
                 alert("Registration Successful "+username);
                 console.log(x);
